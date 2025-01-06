@@ -28,12 +28,12 @@ export default function Home() {
         Soon on HyperEVM
       </div>
       <div class="mt-6 text-base text-center text-gray-400">
-        token live on hyperliquid
+        token live on base/virtuals
       </div>
       <div class="flex gap-4 mt-4 max-w-full text-xs leading-none text-center text-gray-500 w-[419px]" role="list">
-        <div class="grow" role="listitem">treasury: 37.8%</div>
-        <div role="listitem">liquidity: 21%</div>
-        <div class="grow shrink w-[159px]" role="listitem">early contributors: 41.2%</div>
+        <div class="grow" role="listitem">treasury: 5%</div>
+        <div role="listitem">liquidity: 93%</div>
+        <div class="grow shrink w-[159px]" role="listitem">early contributors: 2%</div>
       </div>
       <div class="flex gap-4 mt-3 w-16">
         <div class="flex flex-col flex-1 min-h-[24px]">
@@ -47,26 +47,26 @@ export default function Home() {
       </div>
       <div class="flex gap-3 self-start mt-14 text-base leading-loose max-md:mt-10" role="status" aria-live="polite">
         <div class="my-auto text-gray-500" aria-hidden="true">&gt;</div>
-        <div class="flex-auto text-teal-50">INITIALIZING STARTUP SEQUENCE...</div>
+        <div class="flex-auto text-teal-100
+        ">INITIALIZING STARTUP SEQUENCE...</div>
       </div>
       <div class="self-stretch mt-9 text-base leading-7 text-white max-md:max-w-full">
-        We've witnessed the rise and fall of countless crypto projects. Many were built
+      Numerous cryptocurrency initiatives have risen and fallen. Several were built.
         <br />
-        on promises, controlled by teams who held too much power, bound by human
+        on promises, controlled by teams with excessive power, bound by human 
         <br />
-        limitations and greed.
+        Limitations and greed. 
       </div>
       <div class="self-start mt-9 text-base leading-7 text-white max-md:max-w-full">
-        But what if we could remove the human element of control? What if we could
-        <br />
-        create a system where code is law, and community is king?
+      What if we could eliminate the human element of control? What if we could? 
+        <br />Create a system in which code is the law and community is king. 
       </div>
       <div class="self-start mt-9 text-base leading-7 text-white max-md:max-w-full">
-        Enter to Aura. Born from the ashes of failed experiments, powered by
+      Enter the Aura. Born from the ashes of unsuccessful projects, and driven by 
         <br />
-        autonomous AI agents, protected by immutable code. A new paradigm where
+        Autonomous AI agents are protected by immutable code. A new paradigm where
         <br />
-        artificial intelligence doesn't just assist - it leads.
+        Artificial intelligence does more than just assist; it leads.
       </div>
       <div class="flex gap-3 self-start mt-9 text-base leading-loose" role="status" aria-live="polite">
         <div class="my-auto text-gray-500" aria-hidden="true">&gt;</div>
