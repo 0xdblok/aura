@@ -1,8 +1,8 @@
 import Image from "next/image";
-
+import logo from "./logo.jpg"
 export default function Home() {
   return (
-    <div class="flex flex-col pb-24 bg-green-300 max-md:pb-24" role="main">
+    <div class="flex flex-col pb-24 bg-slate-800 max-md:pb-24" role="main">
     <nav class="flex flex-col justify-center items-end py-4 pr-72 w-full text-base text-gray-400 whitespace-nowrap bg-gray-800 bg-opacity-80 pl-[791px] max-md:px-5 max-md:max-w-full" role="navigation" aria-label="Main navigation">
       <div class="flex flex-wrap gap-6 items-center py-2.5 ml-0 min-h-0">
         <a href="#terminal" class="self-stretch my-auto hover:text-white focus:outline-none focus:ring-2 focus:ring-white" tabindex="0">Terminal</a>
@@ -11,10 +11,15 @@ export default function Home() {
         <a href="#advisors" class="self-stretch my-auto hover:text-white focus:outline-none focus:ring-2 focus:ring-white" tabindex="0">Advisors</a>
       </div>
     </nav>
-    <div class="flex bg-green-300 flex-col items-center self-center mt-12 max-w-full w-[757px] max-md:mt-10">
-      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/f4565066ca39c063845ad01ac10daea9e5ab024369a58c77802cd612dd5f3f8f?placeholderIfAbsent=true&apiKey=4fbda15560e64e0caf773165d88f4da3" class="object-contain w-16 aspect-square" alt="Hyperlauncher Logo" />
+    <div class="flex p-6 bg-slate-800 flex-col items-center self-center mt-12 max-w-full w-[757px] max-md:mt-10">
+      <Image
+      width={160}
+      height={160}
+      src={logo}
+      alt="Hyperlauncher Logo"
+       />
       <h1 class="mt-8 text-6xl tracking-tighter leading-none text-center text-white max-md:max-w-full max-md:text-4xl">
-        Hyperlauncher
+        Aura
       </h1>
       <h2 class="mt-2.5 text-2xl leading-none text-center text-gray-400">
         Autonomous AI Founders
@@ -32,10 +37,12 @@ export default function Home() {
       </div>
       <div class="flex gap-4 mt-3 w-16">
         <div class="flex flex-col flex-1 min-h-[24px]">
-          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/7bdf69f8b9b82997a787b2a7b366b6bc6cad58d5f64595ccccbc8f13327e2b69?placeholderIfAbsent=true&apiKey=4fbda15560e64e0caf773165d88f4da3" class="object-contain w-6 aspect-square" alt="Social Media Icon 1" />
+          <a href="https://x.com/auravirtuals"> <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/7bdf69f8b9b82997a787b2a7b366b6bc6cad58d5f64595ccccbc8f13327e2b69?placeholderIfAbsent=true&apiKey=4fbda15560e64e0caf773165d88f4da3" class="object-contain w-6 aspect-square" alt="Social Media Icon 1" /></a>
+         
         </div>
         <div class="flex flex-col flex-1 min-h-[24px]">
-          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/acb277604e8e8947bf4378b882716272786db87a1328c4aa6d86d09d8953ae94?placeholderIfAbsent=true&apiKey=4fbda15560e64e0caf773165d88f4da3" class="object-contain w-6 aspect-square" alt="Social Media Icon 2" />
+          <a href=""> <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/acb277604e8e8947bf4378b882716272786db87a1328c4aa6d86d09d8953ae94?placeholderIfAbsent=true&apiKey=4fbda15560e64e0caf773165d88f4da3" class="object-contain w-6 aspect-square" alt="Social Media Icon 2" /></a>
+         
         </div>
       </div>
       <div class="flex gap-3 self-start mt-14 text-base leading-loose max-md:mt-10" role="status" aria-live="polite">
@@ -55,7 +62,7 @@ export default function Home() {
         create a system where code is law, and community is king?
       </div>
       <div class="self-start mt-9 text-base leading-7 text-white max-md:max-w-full">
-        Enter Hyperlauncher. Born from the ashes of failed experiments, powered by
+        Enter to Aura. Born from the ashes of failed experiments, powered by
         <br />
         autonomous AI agents, protected by immutable code. A new paradigm where
         <br />
