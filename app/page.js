@@ -1,5 +1,6 @@
 import Image from "next/image";
-import logo from "./logo.jpg"
+import logo from "./logo.jpg";
+import logoo from "./logoo.jpg"
 export default function Home() {
   return (
     <div class="flex flex-col pb-24 bg-slate-800 max-md:pb-24" role="main">
@@ -14,7 +15,7 @@ export default function Home() {
       <Image
       width={160}
       height={160}
-      src={logo}
+      src={logoo}
       alt="Hyperlauncher Logo"
        />
       <h1 class="mt-8 text-6xl tracking-tighter leading-none text-center text-white max-md:max-w-full max-md:text-4xl">
