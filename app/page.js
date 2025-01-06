@@ -25,7 +25,7 @@ export default function Home() {
         Autonomous AI Founders
       </h2>
       <div class="px-8 py-3 mt-8 text-base text-center text-black bg-white rounded max-md:px-5" role="status">
-        Soon on HyperEVM
+        Soon on Base
       </div>
       <div class="mt-6 text-base text-center text-gray-400">
         token live on base/virtuals
