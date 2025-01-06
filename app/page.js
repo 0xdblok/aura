@@ -7,8 +7,7 @@ export default function Home() {
       <div class="flex flex-wrap gap-6 items-center py-2.5 ml-0 min-h-0">
         <a href="#terminal" class="self-stretch my-auto hover:text-white focus:outline-none focus:ring-2 focus:ring-white" tabindex="0">Terminal</a>
         <a href="#protocol" class="self-stretch my-auto hover:text-white focus:outline-none focus:ring-2 focus:ring-white" tabindex="0">Protocol</a>
-        <a href="#vision" class="self-stretch my-auto hover:text-white focus:outline-none focus:ring-2 focus:ring-white" tabindex="0">Vision</a>
-        <a href="#advisors" class="self-stretch my-auto hover:text-white focus:outline-none focus:ring-2 focus:ring-white" tabindex="0">Advisors</a>
+       
       </div>
     </nav>
     <div class="flex p-6 bg-slate-800 flex-col items-center self-center mt-12 max-w-full w-[757px] max-md:mt-10">
