@@ -3,7 +3,7 @@ import logo from "./logo.jpg";
 import logoo from "./logoo.jpg"
 export default function Home() {
   return (
-    <div class="flex flex-col pb-24 bg-black max-md:pb-24" role="main">
+    <div class="flex flex-col pb-16 bg-black max-md:pb-24" role="main">
     <nav class="flex flex-col justify-center items-end py-4 pr-72 w-full text-base text-gray-400 whitespace-nowrap bg-gray-800 bg-opacity-80 pl-[791px] max-md:px-5 max-md:max-w-full" role="navigation" aria-label="Main navigation">
       <div class="flex flex-wrap gap-6 items-center py-2.5 ml-0 min-h-0">
         <a href="#terminal" class="self-stretch my-auto hover:text-white focus:outline-none focus:ring-2 focus:ring-white" tabindex="0">Terminal</a>
@@ -41,7 +41,7 @@ export default function Home() {
          
         </div>
         <div class="flex flex-col flex-1 min-h-[24px]">
-          <a href=""> <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/acb277604e8e8947bf4378b882716272786db87a1328c4aa6d86d09d8953ae94?placeholderIfAbsent=true&apiKey=4fbda15560e64e0caf773165d88f4da3" class="object-contain w-6 aspect-square" alt="Social Media Icon 2" /></a>
+          <a href="https://t.me/+rFGmfWoEBW1kNjA1"> <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/acb277604e8e8947bf4378b882716272786db87a1328c4aa6d86d09d8953ae94?placeholderIfAbsent=true&apiKey=4fbda15560e64e0caf773165d88f4da3" class="object-contain w-6 aspect-square" alt="Social Media Icon 2" /></a>
          
         </div>
       </div>
@@ -73,6 +73,7 @@ export default function Home() {
         <div class="text-teal-50 basis-auto">SYSTEM STATUS: IN TRAINING</div>
       </div>
     </div>
+    <p className="text-center text-zinc-200 pt-28 pb- font-extralight text-sm">All Rights Reserve © </p>  
   </div>
   );
 }
