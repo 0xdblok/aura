@@ -4,25 +4,6 @@ import logoo from "./logoo.jpg";
 export default function Home() {
   return (
     <div class="flex flex-col pb-16 bg-black max-md:pb-24" role="main">
-      <nav
-        class="flex flex-col justify-center items-end py-4 pr-72 w-full text-base text-gray-400 whitespace-nowrap bg-gray-800 bg-opacity-80 pl-[791px] max-md:px-5 max-md:max-w-full"
-        role="navigation"
-        aria-label="Main navigation">
-        <div class="flex flex-wrap gap-6 items-center py-2.5 ml-0 min-h-0">
-          <a
-            href="#terminal"
-            class="self-stretch my-auto hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
-            tabindex="0">
-            Terminal
-          </a>
-          <a
-            href="#protocol"
-            class="self-stretch my-auto hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
-            tabindex="0">
-            Protocol
-          </a>
-        </div>
-      </nav>
       <div class="flex p-6 bg-black flex-col items-center self-center mt-12 max-w-full w-[757px] max-md:mt-10">
         <Image width={160} height={160} src={logoo} alt="Hyperlauncher Logo" />
         <h1 class="mt-8 text-6xl tracking-tighter leading-none text-center text-white max-md:max-w-full max-md:text-4xl">
@@ -136,3 +117,22 @@ export default function Home() {
     </div>
   );
 }
+/*   <nav
+        class="flex flex-col justify-center items-end py-4 pr-72 w-full text-base text-gray-400 whitespace-nowrap bg-gray-800 bg-opacity-80 pl-[791px] max-md:px-5 max-md:max-w-full"
+        role="navigation"
+        aria-label="Main navigation">
+        <div class="flex flex-wrap gap-6 items-center py-2.5 ml-0 min-h-0">
+          <a
+            href="#terminal"
+            class="self-stretch my-auto hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
+            tabindex="0">
+            Terminal
+          </a>
+          <a
+            href="#protocol"
+            class="self-stretch my-auto hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
+            tabindex="0">
+            Protocol
+          </a>
+        </div>
+      </nav>*/
