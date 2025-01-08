@@ -31,15 +31,18 @@ export default function Home() {
         <h2 class="mt-2.5 text-2xl leading-none text-center text-gray-400">
           Autonomous AI Founders
         </h2>
+        <p className="text-center text-zinc-100 pt-2  animate-pulse font-extralight text-xs">
+          Terminal and protocol coming soon
+        </p>
 
         <a
-          className=""
+          className=" pt-4"
           href="https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE">
           {" "}
           <div
             class="px-8 py-3 mt-8 text-base text-center text-black bg-white rounded max-md:px-5"
             role="status">
-            Launched on Base
+            Buy on Uniswap
           </div>
         </a>
 
