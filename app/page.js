@@ -44,7 +44,7 @@ export default function Home() {
         </a>
 
         <div class="mt-6 text-base text-center text-gray-400">
-          token live on base/virtuals
+          token live on base
         </div>
         <div
           class="flex gap-4 mt-4 max-w-full text-xs leading-none text-center text-gray-500 w-[419px]"
