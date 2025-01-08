@@ -34,7 +34,7 @@ export default function Home() {
 
         <a
           className=""
-          href="https://app.virtuals.io/prototypes/0xB24f1bedA2299874feB84d6841ca3B465DFfd052/holders">
+          href="https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE">
           {" "}
           <div
             class="px-8 py-3 mt-8 text-base text-center text-black bg-white rounded max-md:px-5"
