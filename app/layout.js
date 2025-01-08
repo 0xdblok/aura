@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "AuraVirtuals ",
-  description: "AURA on HL",
+  description: "AURA on Base",
 };
 
 export default function RootLayout({ children }) {
