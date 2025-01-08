@@ -32,7 +32,7 @@ export default function Home() {
           Autonomous AI Founders
         </h2>
         <p className="text-center text-zinc-100 pt-2  animate-pulse font-extralight text-xs">
-          Terminal and protocol coming soon
+          Terminal and protocol coming soon...
         </p>
 
         <a
